@@ -69,7 +69,7 @@ In order to install darknet_ros, clone the latest version using SSH (see [how to
     git clone --recursive git@github.com:leggedrobotics/darknet_ros.git
     cd ../
 
-To maximize performance, make sure to build in *Release* mode. You can specify the build type by setting
+Make sure that your gcc/g++ are set to version 8, otherwise it wouldn't build successfully. To maximize performance, make sure to build in *Release* mode. You can specify the build type by setting
 
     catkin_make -DCMAKE_BUILD_TYPE=Release
 
